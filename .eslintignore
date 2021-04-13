@@ -1,0 +1,6 @@
+*.*
+!*.js
+!*.jsx
+public/server.js
+dist
+node_modules

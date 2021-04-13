@@ -1,0 +1,34 @@
+{
+  "presets": [
+  "@babel/preset-react",
+    ["@babel/preset-env", {
+    "targets": {
+      "browsers": [
+        "Chrome >= 59",
+        "FireFox >= 44",
+        "Safari >= 7",
+        "Explorer 11",
+        "last 4 Edge version",
+        "> 1%"
+      ]
+    },
+      "useBuiltIns": "entry"
+    }]
+    ],
+  "plugins": [
+    "react-hot-loader/babel",
+    "lodash",
+    "dynamic-import-node",
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-proposal-class-properties"
+  ],
+  "comments": false,
+  "env": {
+    "test": {
+      "presets": ["@babel/preset-react"],
+      "plugins": ["rewire"]
+    }
+  }
+}
