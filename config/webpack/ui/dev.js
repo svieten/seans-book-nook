@@ -26,7 +26,7 @@ module.exports = {
 		},
 		compress: true,
 		inline: true,
-		contentBase: path.resolve(__dirname, '../../../public/'),
+		contentBase: path.resolve(__dirname, '../../../public'),
 		historyApiFallback: true,
 		hot: true,
 		stats: 'none',

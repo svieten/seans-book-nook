@@ -79,14 +79,14 @@ module.exports = {
 				test: /\.(png|jpg|gif|svg)$/,
 				loader: 'file-loader',
 				options: {
-					name: 'build/images/[name]-[hash].[ext]'
+					name: 'build/assets/[name]-[hash].[ext]'
 				}
 			},
 			{
 				test: /\.(eot|woff|woff2|tff)(\?\S*)?$/,
 				loader: 'file-loader',
 				options: {
-					name: 'build/images/[name]-[hash].[ext]'
+					name: 'build/assets/[name]-[hash].[ext]'
 				}
 			}
 		]

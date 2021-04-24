@@ -15,8 +15,7 @@ if (process.env.NODE_ENV === 'local') {
 		window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
 	store = createStore(root, composeEnhancers(applyMiddleware(thunk, logger)))
 } else {
-	/* eslint-disable no-multi-assign */
-	store = createStore = (root, applyMiddleware(thunk))
+	store = createStore(root, applyMiddleware(thunk))
 }
 
 export default store
