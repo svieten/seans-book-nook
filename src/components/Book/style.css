@@ -1,6 +1,46 @@
 .image-gallery-holder {
-    width: 25%;
-    height: 25%;
+    width: 30%;
+    height: 30%;
     padding-left: 5%;
     padding-top: 5%;
+    padding-right: 5%;
+    float: left;
+}
+
+.book-info {
+    position: relative;
+    padding-top: 5%;
+    height: 30%;
+}
+
+.title-bar-blue{
+    color: #007bff;
+    height: 5px;
+    padding-left: 10%;
+    width: 60%;
+    float: right;
+}
+
+.page-padding {
+    padding-left: 16%;
+    padding-right: 16%;
+    padding-bottom: 2%;
+}
+
+.bar-blue{
+    color: #007bff;
+    height: 7px;
+    padding-left: 10%;
+    margin: auto;
+}
+
+.section-title{
+    padding-top: 2%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.section-text{
+    width: 20%;
+    text-align: center;
 }
